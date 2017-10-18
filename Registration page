@@ -1,0 +1,59 @@
+<section id="Register">
+    <div class="container">
+        <h2 class="text-center blue">Register Here</h2>
+        <hr class="star-primary">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <form name="registrationPage" id="registrationForm" novalidate>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label>Name</label>
+                            <input class="form-control" id="name" type="text" placeholder="Name" required data-validation-required-message="Please enter your name">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label>Surname</label>
+                            <input class="form-control" id="surname" type="text" placeholder="Surname" required data-validation-required-message="Please enter your Surname">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label>Contact Number</label>
+                            <input class="form-control" id="name" type="text" placeholder="Contact Number" required data-validation-required-message="Please enter your contactnumber">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label>E-mail address</label>
+                            <input class="form-control" id="emailaddress" type="text" placeholder="E-mail Address" required data-validation-required-message="Please enter your E-mail Address">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label>Password</label>
+                            <input class="form-control" id="password" type="password" placeholder="Password" required data-validation-required-message="Please enter your password">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label>Confirm Password</label>
+                            <input class="form-control" id="confirm password" type="text" placeholder="Confirm your Password" required data-validation-required-message="Please confirm your password">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="success"></div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success btn-lg" id="registerButton">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
